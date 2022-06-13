@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>甲鬼甲怪</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/parallaxie.min.js"></script>
+	<style type="text/css">
+	@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+body{font-family: 'Noto Sans TC', sans-serif;}
+header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 0% 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(%E5%9C%96%E7%89%87/%E5%B9%BD%E9%9D%88%E8%88%B9.png);
+    flex-direction: column;
+}	
+header h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-bottom: 34px;
+    padding-bottom: 11px;
+    border-radius: 20px;
+    padding-right: 0px;
+    padding-top: 140px;
+    font-weight: 800;
+}
+header a:link  {
+    background-color: #4B3CD0;
+    padding-top: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+header a:hover  {
+    background-color: #D5AEF1;
+    padding-top: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    text-decoration: none;
+    color: #4F2AAE;
+    font-size: 30px
+}
+article h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgba(255,254,254,1.00);
+    padding-top: 0px;
+    margin-top: -42px;
+}
+article {
+    width: 100%;
+    padding-top: 71px;
+    padding-bottom: 47px;
+    background-color: #3C5279;
+}
+.container1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 13px;
+    padding-top: 15px;
+}
+.container1 .left {
+    flex: 1;
+    font-size: 25px;
+    line-height: 37px;
+    margin-right: 15px;
+    color: #BAE8F5;
+}
+.container1 .right {
+    flex: 1;
+    background-position: 70% 51%;
+    border-radius: 27px;
+    height: 289px;
+    background-size: 90% auto;
+    background-image: url(%E5%9C%96%E7%89%87/icon%202.png);
+}
+		
+	.nav-link {
+    color: #FFFFFF !important;
+    font-size: 23px;
+}
+	.nav-link:hover {
+    color: #A7D6F0 !important;}		
+    .dropdown-item:hover {
+    color: #7FD0E2!important;}
+    .carousel-item {
+    height: 733px;
+    background-image: url(%E5%9C%96%E7%89%87/%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%92.jpg);
+    background-size: 100% auto;
+}
+   
+    .card {
+    border: none;
+}
+    .btn {
+    border: none;
+    background-color: #BAE8F5;
+    color: #000000;
+}
+    .btn:hover {
+    background-color: #321895;
+    color: #FFFFFF;
+}
+        .navbar {
+    background-color: #321895!important;
+}
+    .title {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .footer {
+    text-align: center;
+    background-color: #706969;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 17px;
+}
+    .navbar-brand {
+    font-size: 40px;
+}
+    .h5 {
+    font-size: 51px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+    .lead {
+    margin-top: 80px;
+    height: 34px;
+}
+    .course {
+    background-image: url(%E5%9C%96%E7%89%87/%E8%85%B3%E8%89%B2%E5%8D%80%E8%83%8C%E6%99%AF.jpg);
+}
+.p1 {
+    height: 400px;
+    background-image: url(%E5%9C%96%E7%89%87/%E6%8A%95%E5%BD%B1%E7%89%871.JPG);
+    margin: 5px;
+    background-size: 169% auto;
+    background-position: 50% 21%;
+}
+.p2 {
+    height: 400px;
+    background-image: url(%E5%9C%96%E7%89%87/%E6%8A%95%E5%BD%B1%E7%89%872.JPG);
+    margin: 5px;
+    background-size: 169% auto;
+    background-position: 49% 10%;
+}	
+.p3 {
+    height: 400px;
+    background-image: url(%E5%9C%96%E7%89%87/%E6%8A%95%E5%BD%B1%E7%89%873.JPG);
+    background-repeat: repeat-y;
+    margin: 5px;
+    background-size: 168% auto;
+    background-position: 46% 32%;
+}	
+.p4 {
+    height: 500px;
+    background-image: url(%E5%9C%96%E7%89%87/%E5%B9%BD%E9%9D%88%E8%88%B9.png);
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+}	
+.p5 {
+    height: 500px;
+    background-image: url(%E5%9C%96%E7%89%87/%E5%82%B3%E8%AA%AA1.JPG);
+    background-position: center center;
+    margin: 10px;
+    background-size: 136% auto;
+}
+.p6 {
+    height: 500px;
+    background-image: url(%E5%9C%96%E7%89%87/%E6%9D%B1%E5%8D%94.jpg);
+    background-position: center center;
+    margin: 10px;
+    background-size: 136% auto;
+}
+.p7 {
+    height: 500px;
+    background-image: url(%E5%9C%96%E7%89%87/%E5%82%B3%E8%AA%AA2.JPG);
+    background-position: center center;
+    margin: 10px;
+    background-size: 136% auto;
+}
+.p8 {
+    height: 500px;
+    background-image: url(%E5%9C%96%E7%89%87/%E7%B6%9C%E5%A4%A7.jpg);
+    background-position: center center;
+    margin: 10px;
+    background-size: 136% auto;
+}
+.p9 {
+    height: 500px;
+    background-image: url(%E5%9C%96%E7%89%87/%E5%82%B3%E8%AA%AA3.JPG);
+    background-position: center center;
+    margin: 10px;
+    background-size: 136% auto;
+}
+    .carousel-caption {
+    font-size: 21pt;
+    color: #F9FDD7;
+    background-color: #7F9FDB;
+}
+    .carousel-caption h4 {
+    font-size: 42px;
+    background-size: 46% auto;
+    background-color: #7F9FDB;
+    color: #F9FDD7;
+}
+    .legend {
+    background-image: url(%E5%9C%96%E7%89%87/%E5%A6%96%E6%80%AA%E8%BF%B7%E5%AE%AE.jpg);
+}
+    .container5 {
+    display: flex;
+    justify-content: center;
+}
+    </style>
+  </head>
+  <body>
+  	<!-- body code goes here -->
+    <div class="container-fluid" style="padding-left:0px;padding-right:0px;">
+	  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary" style="padding-left:50px;padding-right: :50px"> <a class="navbar-brand" href="#">
+		  <img src="圖片/icon.png" alt="" width="40" height="52" / class="align-text-top">&nbsp;甲鬼甲怪</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	      <ul class="navbar-nav ml-auto">
+	        <li class="nav-item"> <a class="nav-link" href="#a1">劇情概述 </a> </li>
+	        <li class="nav-item"> <a class="nav-link" href="#a2">主要角色</a> </li>
+	        <li class="nav-item"> <a class="nav-link" href="#a3">地圖設計</a> </li>
+	        <li class="nav-item"> <a class="nav-link" href="#a4">歷史故事</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#a5">都市傳說</a> </li>
+		    <li class="nav-item"> <a class="nav-link" href="#a6">遊戲開發者地址</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#"><i class="bi bi-line"></i></a> </li>
+          </ul>
+	    
+        </div>
+      </nav>
+	  <header>
+<h1 class="wow slideInDown">平凡大學生竟然穿越到了平行的妖異世界!?<br>
+	在擁有奇獸、妖怪、鬼靈等虛實之間的異境中<br>玩家該如何幫助主角回到現實世界呢?</h1>
+	<p><a href="https://forum.gamer.com.tw/C.php?bsn=4918&snA=29652" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">點此玩遊戲</a></p></header>	
+<article>
+		<h2 id="a1">劇情概述</h2>
+		<div class="container1"> 
+<div class="left">現代世界觀中,主角從台中火車站出來時,抬頭僅是看見了幽靈船,即誤闖了妖異的世界。
+在遇到了兩名妖異的世界的隊友後,將經歷東協廣場、台中公園、228公園、異樣森林等台中在地歷史景點與都市傳說等相關考驗,最終必須抵達幽靈船並逃脫這個不屬於自己的世界。在遊戲遊玩的其中不乏加入了奇獸、妖怪、鬼靈等設定,虛實之間難以分別。</div>
+<div class="right"></div>
+</div>
+</article>
+<article class="course">
+	 <h2  id="a2">主要角色</h2>
+	  <div class="container 2">
+		<div class="row justify-content-around no-gutters" style="margin-top 10px">
+  <div class="card col-lg-3 wow fadeInUp" data-wow-offset ="200"> <img class="card-img-top" src="圖片/蚵仔煎.png" alt="Card image cap">
+	    <div class="card-body ">
+	      <h5 class="card-title">柯子兼</h5>
+	      <p class="card-text">
+			  主角。在誤打誤撞中,從火車站回宿舍的路上撞進了妖異的世界。</p>
+      <a href="#" class="btn btn-primary">了解更多</a> </div></div>
+    <div class="card col-lg-3  wow fadeInUp" data-wow-offset ="200"> <img class="card-img-top" src="圖片/太陽餅.png" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">泰洋秉</h5>
+	      <p class="card-text"> 主角的夥伴,個性爽朗衝動又有些直腦筋,做事講求義氣。</p>
+	      <a href="#" class="btn btn-primary">了解更多</a> </div></div>
+  <div class="card col-lg-3  wow fadeInUp" data-wow-offset ="200"> <img class="card-img-top" src="圖片/白糖粿22.png" alt="Card image cap">
+	  <div class="card-body">
+	    <h5 class="card-title">白棠桂</h5>
+	    <p class="card-text">個性聰明謹慎又知識見聞廣,不過常拿泰洋秉沒辦法。</p>
+	    <a href="#" class="btn btn-primary">了解更多</a> </div></div>
+</div>
+</div>
+</article>
+<article>
+	<h2 id="a3">地圖設計 </h2>
+	  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+	    <ol class="carousel-indicators">
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+		  <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+        </ol>
+	    <div class="carousel-inner" role="listbox">
+	      <div class="carousel-item active" style="background-image:url(圖片/東協大廳.jpg)"> 
+	        <div class="carousel-caption">
+	          <h4>東協廣場</h4>
+	          <p>充滿東南亞風情的商場 究竟暗藏著甚麼神秘的都市傳說呢?</p>
+            </div>
+          </div>
+	      <div class="carousel-item" style="background-image:url(圖片/粽大13.jpg)"> 
+	        <div class="carousel-caption">
+	          <h4>中興綜大13樓</h4>
+	          <p>傳說中的鬼王究竟在頂樓暗藏著甚麼秘密呢?</p>
+            </div>
+          </div>
+	      <div class="carousel-item" style="background-image:url(圖片/東峰公園.jpg)"> 
+	        <div class="carousel-caption">
+	          <h4>東峰公園</h4>
+	          <p>看似和平寧靜的228公園居然也暗藏許多玄(妖)機(怪)?</p>
+              </div>
+			</div>
+	      
+			  <div class="carousel-item"> 
+	        <div class="carousel-caption">
+	          <h4>台中公園</h4>
+	          <p>廣闊的台中公園內許多魔鬼蛇神正靜靜地等待著玩家的到來...</p>
+            </div>
+        </div>
+	 </div>
+	    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</article>
+<article>	
+	<h2 id="a4">歷史故事</h2>
+	 <div class="row no-gutters ">
+       <div class="col-lg-4"> <div class="p1"></div></div>
+	    <div class="col-lg-4"> <div class="p2"></div></div>
+	    <div class="col-lg-4"> <div class="p3"></div></div>
+  </div>
+</article>
+<article class="legend">
+<h2 id="a5">都市傳說</h2>
+ <div class="row no-gutters ">
+      <div class="col-lg-6 wow fadeIn" data-wow-duration="2s"> <div class="p4"></div> </div>
+	    <div class="col-lg-6 wow fadeIn" data-wow-duration="2s"> <div class="p5"> </div></div> 
+	</div> 
+<div class="row no-gutters ">
+	    <div class="col-lg-6  wow fadeIn" data-wow-duration="2s"> <div class="p6"></div> </div>
+	    <div class="col-lg-6  wow fadeIn" data-wow-duration="2s"> <div class="p7"> </div></div> 
+	</div>
+<div class="row no-gutters ">
+	    <div class="col-lg-6 wow fadeIn" data-wow-duration="2s"> <div class="p8"></div> </div>
+	    <div class="col-lg-6 wow fadeIn" data-wow-duration="2s"> <div class="p9"> </div></div> 
+	</div>
+	</article>	
+	<article>	
+	<h2 id="a6">遊戲開發者地址</h2>
+	  <div class="container5">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.376024398301!2d120.67056321498843!3d24.12342928440678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d02166879e3%3A0x2642181970d71245!2z5ZyL56uL5Lit6IiI5aSn5a245Lq65paH5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1655056059636!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</article>	
+		
+	  <div class="row no-gutters">
+	    <div class="col-lg-12 footer">copyright Cindy 2022</div>
+      </div>
+	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+</div>
+<script>
+  new WOW().init();
+	  </script>
+<script>
+$('header').parallaxie({speed: 0.6});
+</script>
+<script>
+$('.legend').parallaxie({speed: 0.7});
+</script>
+  </body>
+</html>
